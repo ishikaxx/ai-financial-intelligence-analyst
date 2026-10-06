@@ -1,0 +1,64 @@
+# macOS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Raw, interim and processed datasets
+data/raw/
+data/interim/
+data/processed/
+data/outputs/
+*.csv
+*.csv.gz
+*.parquet
+*.feather
+
+# Generated notebook assets
+notebooks/*.csv
+notebooks/*.csv.gz
+notebooks/notebook6_outputs/
+
+# Generated analytical outputs
+outputs/notebook_3_eda/
+outputs/notebook_4_taxonomy/
+outputs/notebook_5_nlp_preparation/
+outputs/notebook7_analysis/
+outputs/notebook7_colab_outputs/
+outputs/notebook7_complete_colab_outputs/
+outputs/notebook7_final_colab_outputs/
+outputs/notebook8_kpis/
+
+# Databases and runtime files
+*.db
+*.db-shm
+*.db-wal
+
+# RAG artifacts and model arrays
+rag/rag_index/
+*.npy
+*.npz
+
+# Temporary upgrade and packaging files
+*.zip
+project_file_tree.txt
+packaging_input.zip
+ANALYST_UPGRADE_README.md
+dashboard/2_AI_Analyst_before_router.py
+
+# Logs
+*.log
